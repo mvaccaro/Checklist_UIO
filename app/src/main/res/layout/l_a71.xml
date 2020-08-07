@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@android:color/transparent"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:id="@+id/rl"
+    android:orientation="vertical"
+    tools:context=".Controlador.C_A77">
+
+    <LinearLayout
+        android:id="@+id/Layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="100dp"
+            android:baselineAligned="false" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/hpe" />
+
+        <Space
+            android:layout_width="559dp"
+            android:layout_height="100dp"
+            android:baselineAligned="false" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="145dp"
+            android:layout_height="100dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/bp2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:baselineAligned="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Layout1"
+                android:layout_alignLeft="@+id/Layout1"
+                android:layout_span="6"
+                android:gravity="center"
+                android:text="FORMULARIO A.71"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30dp"
+                android:textStyle="normal|bold"
+                android:visibility="visible"
+                app:fontFamily="@font/pt_sans" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Layout1"
+                android:layout_alignLeft="@+id/Layout1"
+                android:layout_span="6"
+                android:gravity="center"
+                android:text="Checklist estado infraestructura"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12dp"
+                android:textStyle="normal|italic"
+                android:visibility="visible"
+                app:fontFamily="@font/pt_sans" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:id="@+id/lPasillos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Layout1"
+                        android:layout_alignLeft="@+id/Layout1"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="Actividades"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="normal|bold"
+                        android:visibility="visible"
+                        app:fontFamily="@font/pt_sans" />
+
+                    <TextView
+                        android:layout_width="243dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Layout1"
+                        android:layout_alignLeft="@+id/Layout1"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="Luminosidad (lux)"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="normal|bold"
+                        android:visibility="visible"
+                        app:fontFamily="@font/pt_sans" />
+
+                    <TextView
+                        android:layout_width="246dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Layout1"
+                        android:layout_alignLeft="@+id/Layout1"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="Ruído (dB)"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="normal|bold"
+                        android:visibility="visible"
+                        app:fontFamily="@font/pt_sans" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:stretchColumns="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <FrameLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="2px"
+                                    android:layout_span="10"
+                                    android:background="#000000">
+
+                                </FrameLayout>
+
+                            </TableRow>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="48dp"
+                                    android:layout_height="match_parent" />
+
+                                <TextView
+                                    android:layout_width="220dp"
+                                    android:layout_height="match_parent"
+                                    android:text="PASILLO"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                                <TextView
+                                    android:layout_width="52dp"
+                                    android:layout_height="match_parent"
+                                    android:text="NORTE"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                                <TextView
+                                    android:layout_width="111dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="SUR"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                                <TextView
+                                    android:layout_width="55dp"
+                                    android:layout_height="match_parent" />
+
+                                <TextView
+                                    android:layout_width="114dp"
+                                    android:layout_height="match_parent"
+                                    android:text="NORTE"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                                <TextView
+                                    android:layout_width="47dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="SUR"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                            </TableRow>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <FrameLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="2px"
+                                    android:layout_span="10"
+                                    android:background="#000000">
+
+                                </FrameLayout>
+
+                            </TableRow>
+
+                        </LinearLayout>
+                    </TableLayout>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/txMensaje1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/Layout1"
+                                android:layout_alignLeft="@+id/Layout1"
+                                android:layout_span="6"
+                                android:gravity="center"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="12dp"
+                                android:textStyle="normal|italic"
+                                android:visibility="visible"
+                                app:fontFamily="@font/pt_sans" />
+
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp" />
+
+                        <LinearLayout
+                            android:id="@+id/lPasillosFrios"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <!--- Aqui viene todo el codigo dinamico -->
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </ScrollView>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Layout1"
+                        android:layout_alignLeft="@+id/Layout1"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="Actividades"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="normal|bold"
+                        android:visibility="visible"
+                        app:fontFamily="@font/pt_sans" />
+
+                    <TextView
+                        android:layout_width="243dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Layout1"
+                        android:layout_alignLeft="@+id/Layout1"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="Luminosidad (lux)"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="normal|bold"
+                        android:visibility="visible"
+                        app:fontFamily="@font/pt_sans" />
+
+                    <TextView
+                        android:layout_width="246dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Layout1"
+                        android:layout_alignLeft="@+id/Layout1"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="Ruído (dB)"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="normal|bold"
+                        android:visibility="visible"
+                        app:fontFamily="@font/pt_sans" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:stretchColumns="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <FrameLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="2px"
+                                    android:layout_span="10"
+                                    android:background="#000000">
+
+                                </FrameLayout>
+
+                            </TableRow>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="48dp"
+                                    android:layout_height="match_parent" />
+
+                                <TextView
+                                    android:layout_width="220dp"
+                                    android:layout_height="match_parent"
+                                    android:text="PASILLO"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                                <TextView
+                                    android:layout_width="52dp"
+                                    android:layout_height="match_parent"
+                                    android:text="NORTE"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                                <TextView
+                                    android:layout_width="111dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="SUR"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                                <TextView
+                                    android:layout_width="55dp"
+                                    android:layout_height="match_parent" />
+
+                                <TextView
+                                    android:layout_width="114dp"
+                                    android:layout_height="match_parent"
+                                    android:text="NORTE"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                                <TextView
+                                    android:layout_width="48dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="SUR"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                            </TableRow>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <FrameLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="2px"
+                                    android:layout_span="10"
+                                    android:background="#000000">
+
+                                </FrameLayout>
+
+                            </TableRow>
+
+                        </LinearLayout>
+                    </TableLayout>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/txMensaje2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/Layout1"
+                                android:layout_alignLeft="@+id/Layout1"
+                                android:layout_span="6"
+                                android:gravity="center"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="12dp"
+                                android:textStyle="normal|italic"
+                                android:visibility="visible"
+                                app:fontFamily="@font/pt_sans" />
+
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp" />
+
+                        <LinearLayout
+                            android:id="@+id/lPasillosCalientes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <!--- Aqui viene todo el codigo dinamico -->
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </ScrollView>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="420dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Layout1"
+                        android:layout_alignLeft="@+id/Layout1"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="Inspección de Áreas"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24dp"
+                        android:textStyle="normal|bold"
+                        android:visibility="visible"
+                        app:fontFamily="@font/pt_sans" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:stretchColumns="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <FrameLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="2px"
+                                    android:layout_span="10"
+                                    android:background="#000000">
+
+                                </FrameLayout>
+
+                            </TableRow>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="30dp"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_width="223dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="ÁREA"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                                <TextView
+                                    android:layout_width="212dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="EVENTO"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                                <TextView
+                                    android:layout_width="228dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="DESCRIPCIÓN"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                            </TableRow>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <FrameLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="2px"
+                                    android:layout_span="10"
+                                    android:background="#000000">
+
+                                </FrameLayout>
+
+                            </TableRow>
+
+                        </LinearLayout>
+                    </TableLayout>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/txMensaje3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/Layout1"
+                                android:layout_alignLeft="@+id/Layout1"
+                                android:layout_span="6"
+                                android:gravity="center"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="12dp"
+                                android:textStyle="normal|italic"
+                                android:visibility="visible"
+                                app:fontFamily="@font/pt_sans" />
+
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp" />
+
+                        <LinearLayout
+                            android:id="@+id/lAreas"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <!--- Aqui viene todo el codigo dinamico -->
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </ScrollView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fabMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="53dp"
+        app:fab_labelStyle="@style/Etiquetas"
+        fab:fab_addButtonColorNormal="?attr/colorPrimary"
+        fab:fab_addButtonSize="normal"
+        fab:fab_labelsPosition="left">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/guardar"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabA34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/motor"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabA56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/alerta1"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabA58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/temperatura1"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</android.support.design.widget.CoordinatorLayout>

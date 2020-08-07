@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@android:color/transparent"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:id="@+id/rl"
+    android:orientation="vertical"
+    tools:context=".Controlador.C_A58">
+
+    <LinearLayout
+        android:id="@+id/Layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="100dp"
+            android:baselineAligned="false" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/hpe" />
+
+        <Space
+            android:layout_width="559dp"
+            android:layout_height="100dp"
+            android:baselineAligned="false" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="145dp"
+            android:layout_height="100dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/bp2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:baselineAligned="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Layout1"
+                android:layout_alignLeft="@+id/Layout1"
+                android:layout_span="6"
+                android:gravity="center"
+                android:text="FORMULARIO A.58"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30dp"
+                android:textStyle="normal|bold"
+                android:visibility="visible"
+                app:fontFamily="@font/pt_sans" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Layout1"
+                android:layout_alignLeft="@+id/Layout1"
+                android:layout_span="6"
+                android:gravity="center"
+                android:text="Humedad pasillos fríos y chillers en sala útil"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12dp"
+                android:textStyle="normal|italic"
+                android:visibility="visible"
+                app:fontFamily="@font/pt_sans" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Layout1"
+                        android:layout_alignLeft="@+id/Layout1"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="TEMPERATURA Y HUMEDAD PASILLOS FRÍOS"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        android:textStyle="normal|bold"
+                        android:visibility="visible"
+                        app:fontFamily="@font/pt_sans" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:stretchColumns="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TableRow
+                                android:id="@+id/SeparadorCabecera0"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <FrameLayout
+                                    android:id="@+id/LineaCabecera0"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="2px"
+                                    android:layout_span="10"
+                                    android:background="#000000">
+
+                                </FrameLayout>
+
+                            </TableRow>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="74dp"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/textView6"
+                                    android:layout_width="197dp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="top|bottom"
+                                    android:text="PASILLO"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                                <TextView
+                                    android:id="@+id/tvRack1"
+                                    android:layout_width="121dp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="top|bottom"
+                                    android:text="TEMPERATURA SENSOR"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                                <TextView
+                                    android:id="@+id/tvRack2"
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="TEMPERATURA MONITOREO"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                                <TextView
+                                    android:id="@+id/tvUR"
+                                    android:layout_width="158dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="HUMEDAD"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                            </TableRow>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TableRow
+                                android:id="@+id/SeparadorCabecera"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <FrameLayout
+                                    android:id="@+id/LineaCabecera"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="2px"
+                                    android:layout_span="10"
+                                    android:background="#000000">
+
+                                </FrameLayout>
+
+                            </TableRow>
+
+                        </LinearLayout>
+                    </TableLayout>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/txMensaje1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/Layout1"
+                                android:layout_alignLeft="@+id/Layout1"
+                                android:layout_span="6"
+                                android:gravity="center"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="12dp"
+                                android:textStyle="normal|italic"
+                                android:visibility="visible"
+                                app:fontFamily="@font/pt_sans" />
+
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp" />
+
+                        <LinearLayout
+                            android:id="@+id/lPasillos"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <!--- Aqui viene todo el codigo dinamico -->
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </ScrollView>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Layout1"
+                        android:layout_alignLeft="@+id/Layout1"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="CHILLERS"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="25dp"
+                        android:textStyle="normal|bold"
+                        android:visibility="visible"
+                        app:fontFamily="@font/pt_sans" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:stretchColumns="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <FrameLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="2px"
+                                    android:layout_span="10"
+                                    android:background="#000000">
+
+                                </FrameLayout>
+
+                            </TableRow>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="156dp"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_width="126dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="CHILLER"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                                <TextView
+                                    android:layout_width="218dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="TEMPERATURA SUMINISTRO"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                                <TextView
+                                    android:layout_width="152dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="TEMPERATURA RETORNO"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="12dp"
+                                    android:textStyle="normal|bold"
+                                    app:fontFamily="@font/pt_sans" />
+
+                            </TableRow>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <FrameLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="2px"
+                                    android:layout_span="10"
+                                    android:background="#000000">
+
+                                </FrameLayout>
+
+                            </TableRow>
+
+                        </LinearLayout>
+                    </TableLayout>
+
+                </LinearLayout>
+
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/txMensaje2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/Layout1"
+                                android:layout_alignLeft="@+id/Layout1"
+                                android:layout_span="6"
+                                android:gravity="center"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="12dp"
+                                android:textStyle="normal|italic"
+                                android:visibility="visible"
+                                app:fontFamily="@font/pt_sans" />
+
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp" />
+
+                        <LinearLayout
+                            android:id="@+id/lChillers"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <!--- Aqui viene todo el codigo dinamico -->
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </ScrollView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fabMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="53dp"
+        app:fab_labelStyle="@style/Etiquetas"
+        fab:fab_addButtonColorNormal="?attr/colorPrimary"
+        fab:fab_addButtonSize="normal"
+        fab:fab_labelsPosition="left">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/guardar"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabA34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/motor"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabA56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/alerta1"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabA71"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/luminosidad1"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:gravity="center"
+    android:background="@android:color/transparent"
+    tools:context=".Controlador.C_Tipo_Alerta">
+
+    <LinearLayout
+        android:id="@+id/Layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="146dp"
+            android:baselineAligned="false" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/hpe" />
+
+        <Space
+            android:layout_width="559dp"
+            android:layout_height="146dp"
+            android:baselineAligned="false" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/bp2" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|center"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Layout1"
+            android:layout_alignLeft="@+id/Layout1"
+            android:layout_span="6"
+            android:gravity="center"
+            android:text="MANTENIMIENTO DE TIPO DE ALERTAS"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="35dp"
+            android:textStyle="normal|bold"
+            android:visibility="visible"
+            app:fontFamily="@font/pt_sans" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/tilId_Tipo_Alerta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp">
+
+                <EditText
+                    android:id="@+id/etId_Tipo_Alerta"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="* ID"
+                    app:fontFamily="@font/pt_sans"
+                    android:inputType="number"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/tilNombre_Tipo_Alerta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp">
+
+                <EditText
+                    android:id="@+id/etNombre_Tipo_Alerta"
+                    android:layout_width="500dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="* Tipo de alerta"
+                    android:textSize="15sp"
+                    app:fontFamily="@font/pt_sans"
+                    android:inputType="textMultiLine"
+                    app:ms_multiline="true" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fabMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="53dp"
+        app:fab_labelStyle="@style/Etiquetas"
+        fab:fab_addButtonColorNormal="?attr/colorPrimary"
+        fab:fab_addButtonSize="normal"
+        fab:fab_labelsPosition="left">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabNuevo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/nuevo"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/guardar"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/buscar"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabLimpiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/clean"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabModificar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/modificar"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabAtras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/back"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabSiguiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/next"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabDesactivar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/desactivar"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@android:color/transparent"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Controlador.C_Alerta">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/Layout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="146dp"
+                android:baselineAligned="false" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="81dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/hpe" />
+
+            <Space
+                android:layout_width="559dp"
+                android:layout_height="146dp"
+                android:baselineAligned="false" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/bp2" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top|center"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="131dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Layout1"
+                android:layout_alignLeft="@+id/Layout1"
+                android:layout_span="6"
+                android:gravity="center"
+                android:text="MANTENIMIENTO DE ALERTAS"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="40dp"
+                android:textStyle="normal|bold"
+                android:visibility="visible"
+                app:fontFamily="@font/pt_sans" />
+
+            <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="top|center"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="37dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/Layout1"
+                            android:layout_alignLeft="@+id/Layout1"
+                            android:layout_span="6"
+                            android:gravity="center"
+                            android:text="DATOS DEL RACK"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20dp"
+                            android:textStyle="normal|bold"
+                            android:visibility="visible"
+                            app:fontFamily="@font/pt_sans" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                            android:id="@+id/msFila"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:focusableInTouchMode="false"
+                            android:gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            app:fontFamily="@font/pt_sans"
+                            app:ms_arrowColor="#0000FF"
+                            app:ms_arrowSize="16dp"
+                            app:ms_hint="hint"
+                            app:ms_hintColor="#0000FF"
+                            app:ms_multiline="true" />
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content" />
+
+                        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                            android:id="@+id/msRack"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:focusableInTouchMode="false"
+                            android:gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            app:fontFamily="@font/pt_sans"
+                            app:ms_arrowColor="#0000FF"
+                            app:ms_arrowSize="16dp"
+                            app:ms_enableErrorLabel="true"
+                            app:ms_enableFloatingLabel="true"
+                            app:ms_hint="hint"
+                            app:ms_hintColor="#0000FF"
+                            app:ms_multiline="true" />
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content" />
+
+                        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                            android:id="@+id/msUR"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:focusableInTouchMode="false"
+                            android:gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            app:fontFamily="@font/pt_sans"
+                            app:ms_arrowColor="#0000FF"
+                            app:ms_arrowSize="16dp"
+                            app:ms_enableErrorLabel="true"
+                            app:ms_enableFloatingLabel="true"
+                            app:ms_hint="hint"
+                            app:ms_hintColor="#0000FF"
+                            app:ms_multiline="true" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/Layout1"
+                            android:layout_alignLeft="@+id/Layout1"
+                            android:layout_span="6"
+                            android:gravity="center"
+                            android:text="DATOS DEL EQUIPO"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20dp"
+                            android:textStyle="normal|bold"
+                            android:visibility="visible"
+                            app:fontFamily="@font/pt_sans" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.getbase.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fabAtras1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            fab:fab_colorNormal="?attr/colorAccent"
+                            fab:fab_icon="@drawable/back"
+                            fab:fab_size="mini"
+                            fab:fab_title="" />
+
+                        <com.getbase.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fabSiguiente1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            fab:fab_colorNormal="?attr/colorAccent"
+                            fab:fab_icon="@drawable/next"
+                            fab:fab_size="mini"
+                            fab:fab_title="" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="41dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/tilID_Equipo"
+                                android:layout_width="180dp"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/etID_Equipo"
+                                    android:layout_width="180dp"
+                                    android:layout_height="wrap_content"
+                                    android:ems="10"
+                                    android:enabled="false"
+                                    android:gravity="center"
+                                    android:hint="Nombre"
+                                    android:inputType="text"
+                                    android:singleLine="true"
+                                    android:textAlignment="center"
+                                    android:textSize="12sp"
+                                    app:fontFamily="@font/pt_sans" />
+                            </android.support.design.widget.TextInputLayout>
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/tilMarca"
+                                android:layout_width="180dp"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/etMarca"
+                                    android:layout_width="180dp"
+                                    android:layout_height="wrap_content"
+                                    android:ems="10"
+                                    android:enabled="false"
+                                    android:gravity="center"
+                                    android:hint="Marca"
+                                    android:inputType="text"
+                                    android:singleLine="true"
+                                    android:textAlignment="center"
+                                    android:textSize="12sp"
+                                    app:fontFamily="@font/pt_sans" />
+                            </android.support.design.widget.TextInputLayout>
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/tilModelo"
+                                android:layout_width="180dp"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/etModelo"
+                                    android:layout_width="180dp"
+                                    android:layout_height="wrap_content"
+                                    android:ems="10"
+                                    android:enabled="false"
+                                    android:gravity="center"
+                                    android:hint="Modelo"
+                                    android:inputType="text"
+                                    android:singleLine="true"
+                                    android:textAlignment="center"
+                                    android:textSize="12sp"
+                                    app:fontFamily="@font/pt_sans" />
+                            </android.support.design.widget.TextInputLayout>
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/tilSerie"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/etSerie"
+                                    android:layout_width="180dp"
+                                    android:layout_height="wrap_content"
+                                    android:ems="10"
+                                    android:enabled="false"
+                                    android:gravity="center"
+                                    android:hint="Serie"
+                                    android:inputType="text"
+                                    android:singleLine="true"
+                                    android:textAlignment="center"
+                                    android:textSize="12sp"
+                                    app:fontFamily="@font/pt_sans" />
+                            </android.support.design.widget.TextInputLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/Layout1"
+                            android:layout_alignLeft="@+id/Layout1"
+                            android:layout_span="6"
+                            android:gravity="center"
+                            android:text="DATOS DE LA ALERTA"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20dp"
+                            android:textStyle="normal|bold"
+                            android:visibility="visible"
+                            app:fontFamily="@font/pt_sans" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="43dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                            android:id="@+id/msTipoAlerta"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:focusableInTouchMode="false"
+                            android:gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            app:fontFamily="@font/pt_sans"
+                            app:ms_arrowColor="#0000FF"
+                            app:ms_arrowSize="16dp"
+                            app:ms_hint="hint"
+                            app:ms_hintColor="#0000FF"
+                            app:ms_multiline="true" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                            android:id="@+id/msColorAlerta"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:focusableInTouchMode="false"
+                            android:gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="15sp"
+                            app:fontFamily="@font/pt_sans"
+                            app:ms_arrowColor="#0000FF"
+                            app:ms_arrowSize="16dp"
+                            app:ms_enableErrorLabel="true"
+                            app:ms_enableFloatingLabel="true"
+                            app:ms_hint="hint"
+                            app:ms_hintColor="#0000FF"
+                            app:ms_multiline="true" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/tilComentario"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:id="@+id/etComentario"
+                                android:layout_width="500dp"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:enabled="false"
+                                android:gravity="center"
+                                android:hint="Comentario"
+                                android:inputType="textMultiLine"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                app:fontFamily="@font/pt_sans" />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/tilTicket"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:id="@+id/etTicket"
+                                android:layout_width="500dp"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:enabled="false"
+                                android:gravity="center"
+                                android:hint="Ticket Otrs"
+                                android:inputType="text|number"
+                                android:singleLine="true"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
+                                app:fontFamily="@font/pt_sans" />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.getbase.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fabSubirFoto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:tooltipText="Subir foto"
+                            fab:fab_colorNormal="?attr/colorAccent"
+                            fab:fab_icon="@drawable/upload1"
+                            fab:fab_size="mini"
+                            fab:fab_title="" />/>
+
+                        <Space
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content" />
+
+                        <com.getbase.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fabVerFoto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:tooltipText="Ver foto"
+                            fab:fab_colorNormal="?attr/colorAccent"
+                            fab:fab_icon="@drawable/look"
+                            fab:fab_size="mini"
+                            fab:fab_title="" />/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible">
+
+                </ImageView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fabMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="53dp"
+        app:fab_labelStyle="@style/Etiquetas"
+        fab:fab_addButtonColorNormal="?attr/colorPrimary"
+        fab:fab_addButtonSize="normal"
+        fab:fab_labelsPosition="left">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabNuevo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tooltipText="Nuevo"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/nuevo"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/guardar"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/buscar"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabLimpiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/clean"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabModificar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/modificar"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabAtras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/back"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabSiguiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/next"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabDesactivar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_icon="@drawable/desactivar"
+            fab:fab_size="mini"
+            fab:fab_title="" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+</android.support.design.widget.CoordinatorLayout>

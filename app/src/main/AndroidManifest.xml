@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.bp.teuno.checklist">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Controlador.C_Inicio_Sesion">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Controlador.C_Operador" />
+        <activity android:name=".Controlador.C_Menu_Principal" />
+        <activity android:name=".Controlador.C_Rack" />
+        <activity android:name=".Controlador.C_Equipo" />
+        <activity android:name=".Controlador.C_Fila" />
+        <activity android:name=".Controlador.C_Cliente" />
+        <activity android:name=".Controlador.C_Pasillo" />
+        <activity android:name=".Controlador.C_Alerta" />
+        <activity android:name=".Controlador.C_Area" />
+        <activity android:name=".Controlador.C_Chiller" />
+        <activity android:name=".Controlador.C_Tipo_Alerta" />
+        <activity android:name=".Controlador.C_Color_Alerta" />
+        <activity android:name=".Controlador.C_Cantidad_Ur" />
+        <activity android:name=".Controlador.C_Grupo" />
+        <activity android:name=".Controlador.C_Version" />
+        <activity android:name=".Controlador.C_Parametros" />
+        <activity android:name=".Controlador.C_A34" />
+        <activity android:name=".Controlador.C_A56" />
+        <activity android:name=".Controlador.C_A71" />
+        <activity android:name=".Controlador.C_A76" />
+        <activity android:name=".Controlador.C_A77" />
+        <activity android:name=".Controlador.C_A58" />
+        <activity android:name=".Controlador.C_A98" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <!--
+            <activity android:name=".Controlador_.Main3Activity" />
+            <activity android:name=".Controlador_.Check" />
+            <activity android:name=".Controlador_.NuevaAlerta" />
+            <activity android:name=".Controlador_.Orden" />
+            <activity android:name=".Controlador_.IngresoEquipo" />
+            <activity android:name=".Controlador_.A71" />
+            <activity android:name=".Controlador_.Temperatura" />
+            <activity android:name=".Controlador_.Inicio" />
+            <activity android:name=".Controlador_.Main2Activity"></activity>
+            <activity android:name=".Controlador_.A76_F1"></activity>
+            <activity android:name=".Controlador_.A76_F2"></activity>
+            <activity android:name=".Controlador_.A76_F3"></activity>
+            <activity android:name=".Controlador_.A76_F4"></activity>
+            <activity android:name=".Controlador_.A76_F7"></activity>
+
+            <activity
+            android:name=".act_A34"
+            android:label="@string/title_activity_act__a34"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        -->
+
+    </application>
+
+</manifest>

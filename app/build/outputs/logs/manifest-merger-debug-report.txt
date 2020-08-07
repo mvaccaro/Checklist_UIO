@@ -1,0 +1,303 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:2:1-75:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\f334651bc66096e51d02a4e42646c968\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.fafaldo:fab-toolbar:1.2.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\fab-toolbar-1.2.0.aar\268451b2887f1bc310de42ea9050e124\AndroidManifest.xml:2:1-16:12
+MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\library-material-1.1.0.aar\396d6d6c7fde3fcbe54365ee7f7001dc\AndroidManifest.xml:2:1-16:12
+MERGED from [com.github.ganfra:material-spinner:2.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\material-spinner-2.0.0.aar\66690ef3cc3f675078f173cfa4769252\AndroidManifest.xml:2:1-10:12
+MERGED from [com.rengwuxian.materialedittext:library:2.0.3] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\library-2.0.3.aar\9042be0ce55dd735350a0fc401a0fd60\AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\edf3cd53b0dd2473a5aef7fd452dcab6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\floatingactionbutton-1.10.1.aar\143440fe862a326330562fc5ce5ae2c5\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\305341abc5b339bc19930e60d76c38b8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\bcc0ac08092a195b10bccec13608bfb1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\096b947fa5c8663d2c3e591b4fcc4d00\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d11c57e7d2be724f3db0a503562076f3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\46a8b449775c57642fdb5262c3ef83e2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\8c130b44bb2ef14dd4ca7fb00875c2bb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\3e49ddc824bcb44c7f2b5ba374ee8573\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\cb47df130d053c64885c8ad837eca2f0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\0fee81254a2ebd176fcbe9dfdcbbc438\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\9f69305ed91851594897b4f2d4e2de20\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\baed0c2ba3152e353cb4a6e9c58c5424\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\122bf2e0f6f57f3518458ac9601037d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\213f985240c95a1caf460bc47e9be223\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\c72682c89e8d242aee4d6b5f372c4568\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\180e4aed3e113a70f2bca9ccdb233134\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\f2781fd4180db899406cbb47a2b067d7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\6d3f20c1ae0d23b9e539ce6811fe8d60\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\3a4570ab41012fe30d75e3ef508437f3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a1ba1317f701197ca95b0dca03b036d3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9717785a0c7c04308a1530e8f763e395\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\13e5d034bd0cef7baca062853144d563\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f1ea15cf70177a4b4675fe0ab2d72b6b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\6369b0d944a29973048db6f030cfd73c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\e3555719015229f93ac7aee7a61b300e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\238e6e7673a5b5bf3dddc09de084677d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\9744a8fe568b65572d9b3b16f0ade7d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\b0af9d11f4a14bf0af680a412bcc6800\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\0706c6fa7b8d46139b6cc4fe23f8350f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\b0783e2de42c3dc85d8b4f542908d49c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\e477891b30328da9406ac89970304986\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5ef4b866de86276aec0ab63f68719e25\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:2:1-75:12
+	package
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:2:1-75:12
+		INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:2:1-75:12
+		INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:5:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:7:22-62
+application
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:9:5-73:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\f334651bc66096e51d02a4e42646c968\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\f334651bc66096e51d02a4e42646c968\AndroidManifest.xml:22:5-20
+MERGED from [com.github.fafaldo:fab-toolbar:1.2.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\fab-toolbar-1.2.0.aar\268451b2887f1bc310de42ea9050e124\AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.fafaldo:fab-toolbar:1.2.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\fab-toolbar-1.2.0.aar\268451b2887f1bc310de42ea9050e124\AndroidManifest.xml:11:5-14:19
+MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\library-material-1.1.0.aar\396d6d6c7fde3fcbe54365ee7f7001dc\AndroidManifest.xml:11:5-14:19
+MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\library-material-1.1.0.aar\396d6d6c7fde3fcbe54365ee7f7001dc\AndroidManifest.xml:11:5-14:19
+MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\floatingactionbutton-1.10.1.aar\143440fe862a326330562fc5ce5ae2c5\AndroidManifest.xml:12:5-20
+MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\floatingactionbutton-1.10.1.aar\143440fe862a326330562fc5ce5ae2c5\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\305341abc5b339bc19930e60d76c38b8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\305341abc5b339bc19930e60d76c38b8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a1ba1317f701197ca95b0dca03b036d3\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a1ba1317f701197ca95b0dca03b036d3\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9717785a0c7c04308a1530e8f763e395\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9717785a0c7c04308a1530e8f763e395\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a1ba1317f701197ca95b0dca03b036d3\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:12:9-41
+	android:icon
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:11:9-36
+	android:allowBackup
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:14:9-40
+activity#org.bp.teuno.checklist.Controlador.C_Inicio_Sesion
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:15:19-62
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:19:27-74
+activity#org.bp.teuno.checklist.Controlador.C_Operador
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:22:9-60
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:22:19-57
+activity#org.bp.teuno.checklist.Controlador.C_Menu_Principal
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:23:9-66
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:23:19-63
+activity#org.bp.teuno.checklist.Controlador.C_Rack
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:24:9-56
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:24:19-53
+activity#org.bp.teuno.checklist.Controlador.C_Equipo
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:25:9-58
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:25:19-55
+activity#org.bp.teuno.checklist.Controlador.C_Fila
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:26:9-56
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:26:19-53
+activity#org.bp.teuno.checklist.Controlador.C_Cliente
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:27:9-59
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:27:19-56
+activity#org.bp.teuno.checklist.Controlador.C_Pasillo
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:28:9-59
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:28:19-56
+activity#org.bp.teuno.checklist.Controlador.C_Alerta
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:29:9-58
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:29:19-55
+activity#org.bp.teuno.checklist.Controlador.C_Area
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:30:9-56
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:30:19-53
+activity#org.bp.teuno.checklist.Controlador.C_Chiller
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:31:9-59
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:31:19-56
+activity#org.bp.teuno.checklist.Controlador.C_Tipo_Alerta
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:32:9-63
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:32:19-60
+activity#org.bp.teuno.checklist.Controlador.C_Color_Alerta
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:33:19-61
+activity#org.bp.teuno.checklist.Controlador.C_Cantidad_Ur
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:34:9-63
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:34:19-60
+activity#org.bp.teuno.checklist.Controlador.C_Grupo
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:35:9-57
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:35:19-54
+activity#org.bp.teuno.checklist.Controlador.C_Version
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:36:9-59
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:36:19-56
+activity#org.bp.teuno.checklist.Controlador.C_Parametros
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:37:9-62
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:37:19-59
+activity#org.bp.teuno.checklist.Controlador.C_A34
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:38:9-55
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:38:19-52
+activity#org.bp.teuno.checklist.Controlador.C_A56
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:39:9-55
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:39:19-52
+activity#org.bp.teuno.checklist.Controlador.C_A71
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:40:9-55
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:40:19-52
+activity#org.bp.teuno.checklist.Controlador.C_A76
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:41:9-55
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:41:19-52
+activity#org.bp.teuno.checklist.Controlador.C_A77
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:42:9-55
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:42:19-52
+activity#org.bp.teuno.checklist.Controlador.C_A58
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:43:9-55
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:43:19-52
+activity#org.bp.teuno.checklist.Controlador.C_A98
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:44:9-55
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:44:19-52
+meta-data#preloaded_fonts
+ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:46:9-48:57
+	android:resource
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:48:13-54
+	android:name
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml:47:13-43
+uses-sdk
+INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\f334651bc66096e51d02a4e42646c968\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\f334651bc66096e51d02a4e42646c968\AndroidManifest.xml:20:5-44
+MERGED from [com.github.fafaldo:fab-toolbar:1.2.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\fab-toolbar-1.2.0.aar\268451b2887f1bc310de42ea9050e124\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.fafaldo:fab-toolbar:1.2.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\fab-toolbar-1.2.0.aar\268451b2887f1bc310de42ea9050e124\AndroidManifest.xml:7:5-9:41
+MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\library-material-1.1.0.aar\396d6d6c7fde3fcbe54365ee7f7001dc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.weiwangcn.betterspinner:library-material:1.1.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\library-material-1.1.0.aar\396d6d6c7fde3fcbe54365ee7f7001dc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ganfra:material-spinner:2.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\material-spinner-2.0.0.aar\66690ef3cc3f675078f173cfa4769252\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.ganfra:material-spinner:2.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\material-spinner-2.0.0.aar\66690ef3cc3f675078f173cfa4769252\AndroidManifest.xml:6:5-8:41
+MERGED from [com.rengwuxian.materialedittext:library:2.0.3] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\library-2.0.3.aar\9042be0ce55dd735350a0fc401a0fd60\AndroidManifest.xml:6:5-8:41
+MERGED from [com.rengwuxian.materialedittext:library:2.0.3] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\library-2.0.3.aar\9042be0ce55dd735350a0fc401a0fd60\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\edf3cd53b0dd2473a5aef7fd452dcab6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\edf3cd53b0dd2473a5aef7fd452dcab6\AndroidManifest.xml:20:5-44
+MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\floatingactionbutton-1.10.1.aar\143440fe862a326330562fc5ce5ae2c5\AndroidManifest.xml:8:5-10:41
+MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\floatingactionbutton-1.10.1.aar\143440fe862a326330562fc5ce5ae2c5\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\305341abc5b339bc19930e60d76c38b8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\305341abc5b339bc19930e60d76c38b8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\bcc0ac08092a195b10bccec13608bfb1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\bcc0ac08092a195b10bccec13608bfb1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\096b947fa5c8663d2c3e591b4fcc4d00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\096b947fa5c8663d2c3e591b4fcc4d00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d11c57e7d2be724f3db0a503562076f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d11c57e7d2be724f3db0a503562076f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\46a8b449775c57642fdb5262c3ef83e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\46a8b449775c57642fdb5262c3ef83e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\8c130b44bb2ef14dd4ca7fb00875c2bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\8c130b44bb2ef14dd4ca7fb00875c2bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\3e49ddc824bcb44c7f2b5ba374ee8573\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\3e49ddc824bcb44c7f2b5ba374ee8573\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\cb47df130d053c64885c8ad837eca2f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\cb47df130d053c64885c8ad837eca2f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\0fee81254a2ebd176fcbe9dfdcbbc438\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\0fee81254a2ebd176fcbe9dfdcbbc438\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\9f69305ed91851594897b4f2d4e2de20\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\9f69305ed91851594897b4f2d4e2de20\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\baed0c2ba3152e353cb4a6e9c58c5424\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\baed0c2ba3152e353cb4a6e9c58c5424\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\122bf2e0f6f57f3518458ac9601037d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\122bf2e0f6f57f3518458ac9601037d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\213f985240c95a1caf460bc47e9be223\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\213f985240c95a1caf460bc47e9be223\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\c72682c89e8d242aee4d6b5f372c4568\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\c72682c89e8d242aee4d6b5f372c4568\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\180e4aed3e113a70f2bca9ccdb233134\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\180e4aed3e113a70f2bca9ccdb233134\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\f2781fd4180db899406cbb47a2b067d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\f2781fd4180db899406cbb47a2b067d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\6d3f20c1ae0d23b9e539ce6811fe8d60\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\6d3f20c1ae0d23b9e539ce6811fe8d60\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\3a4570ab41012fe30d75e3ef508437f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\3a4570ab41012fe30d75e3ef508437f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a1ba1317f701197ca95b0dca03b036d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a1ba1317f701197ca95b0dca03b036d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9717785a0c7c04308a1530e8f763e395\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9717785a0c7c04308a1530e8f763e395\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\13e5d034bd0cef7baca062853144d563\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\13e5d034bd0cef7baca062853144d563\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f1ea15cf70177a4b4675fe0ab2d72b6b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f1ea15cf70177a4b4675fe0ab2d72b6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\6369b0d944a29973048db6f030cfd73c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\6369b0d944a29973048db6f030cfd73c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\e3555719015229f93ac7aee7a61b300e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\e3555719015229f93ac7aee7a61b300e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\238e6e7673a5b5bf3dddc09de084677d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\238e6e7673a5b5bf3dddc09de084677d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\9744a8fe568b65572d9b3b16f0ade7d6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\9744a8fe568b65572d9b3b16f0ade7d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\b0af9d11f4a14bf0af680a412bcc6800\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\b0af9d11f4a14bf0af680a412bcc6800\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\0706c6fa7b8d46139b6cc4fe23f8350f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\0706c6fa7b8d46139b6cc4fe23f8350f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\b0783e2de42c3dc85d8b4f542908d49c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\b0783e2de42c3dc85d8b4f542908d49c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\e477891b30328da9406ac89970304986\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\e477891b30328da9406ac89970304986\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5ef4b866de86276aec0ab63f68719e25\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Administrador\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\5ef4b866de86276aec0ab63f68719e25\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrador\Documents\MV\APP FASE 2\Respaldo Fase 1 JG\Tablet Tab3\Checklist_UIO\app\src\main\AndroidManifest.xml

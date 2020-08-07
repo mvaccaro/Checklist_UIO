@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Jul 01 12:15:14 COT 2020
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\Administrador\\Documents\\MV\\APP FASE 2\\Respaldo Fase 1 JG\\Tablet Tab3\\Checklist_UIO\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

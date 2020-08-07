@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/rl"
+    android:weightSum="1"
+    tools:context=".Controlador.C_Menu_Principal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageOperador"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/cliente1" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/txtNombre_Operador"
+                style="@style/AlertDialog.AppCompat.Light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="top|right"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="22sp"
+                android:textStyle="normal|bold"
+                android:visibility="visible"
+                app:fontFamily="@font/pt_sans" />
+
+            <TextView
+                android:id="@+id/txtTurno"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="top|right"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="normal|bold|italic"
+                android:visibility="visible"
+                app:fontFamily="@font/pt_sans" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+
+        <ExpandableListView
+            android:id="@+id/elvLista"
+            style="@android:style/Widget.Material.Light.ExpandableListView"
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:accessibilityPaneTitle="Hola Mundo"
+            android:footerDividersEnabled="true"
+            android:headerDividersEnabled="true"
+            android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+            android:scrollbars="vertical"
+            android:theme="?android:attr/expandableListViewStyle"
+            app:fontFamily="@font/pt_sans">
+
+        </ExpandableListView>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:id="@+id/Layout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:baselineAligned="false" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="81dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/hpe" />
+
+            <Space
+                android:layout_width="539dp"
+                android:layout_height="100dp"
+                android:baselineAligned="false" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/bp2" />
+
+        </LinearLayout>
+
+
+</LinearLayout>
